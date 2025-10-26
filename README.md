@@ -44,3 +44,8 @@ export XAUTHORITY=/home/wowa/.Xauthority
 source pyqtenv/bin/activate
 python balls.py
 ```
+
+Как использовать скрипт setup_xauth.sh? Запустить скрипт на машине с GUI после перезапуска.
+Он автоматически: извлечёт токен, передаст его в SSH-сессию, настроит DISPLAY и XAUTHORITY.
+После этого можно запускать python balls.py из SSH
+(ToDo: Необходимо сделать автостарт для этого скрипта...)
