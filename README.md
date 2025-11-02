@@ -18,6 +18,8 @@ sudo apt install python3-tk python3-pyqt5 xauth libxcb-xinerama0 libxkbcommon-x1
 2. Создание виртуального окружения
 
 ```
+mkdir pyqt
+cd pyqt
 python3 -m venv pyqtenv
 source pyqtenv/bin/activate
 pip install pyqt5
